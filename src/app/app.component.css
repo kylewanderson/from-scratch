@@ -1,0 +1,35 @@
+.viewer-container {
+  //display: flex;
+  //flex-direction: column;
+  //justify-content: center;
+}
+
+.toolbar {
+  //display: flex;
+  //flex-direction: row;
+  //justify-content: center;
+}
+.canvas-container {
+  position: relative;
+  //display: flex;
+}
+
+.pdf-canvas {
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
+.page-container {
+  box-shadow: 0 1px 3px #444;
+  position: relative;
+  font-size: 1px;
+  line-height: 1;
+}
+
+span {
+  position: absolute;
+  cursor: text;
+  white-space: pre;
+  transform-origin: left bottom;
+}
